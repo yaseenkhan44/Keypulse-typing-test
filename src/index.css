@@ -1,0 +1,29 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  html {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  code, kbd, samp, pre {
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+  }
+}
+
+/* Custom smooth pulse for live typing cursor */
+@keyframes blink-smooth {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.animate-cursor {
+  animation: blink-smooth 1s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Smooth key transition in interactive keyboard */
+.key-press-active {
+  transform: translateY(2px) scale(0.97);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+}

@@ -1,0 +1,6 @@
+{
+  "name": "KeyPulse - English Typing Speed Test & Lessons",
+  "description": "Professional English typing speed test platform with live WPM & accuracy metrics, structured touch typing lessons, interactive practice drills, educational games, and in-depth speed guides.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

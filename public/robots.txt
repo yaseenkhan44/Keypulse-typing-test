@@ -1,0 +1,6 @@
+# robots.txt for KeyPulse (https://keypulse.org)
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://keypulse.org/sitemap.xml
